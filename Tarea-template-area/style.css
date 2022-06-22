@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: "Inconsolata", monospace;
+  width: 50vw;
+  height: 80vh;
+
+  display: grid;
+  grid-template-areas:
+    "item-1 item-1 item-2 item-2 item-3"
+    "item-1 item-1 item-4 item-4 item-5"
+    "item-6 item-7 item-7 item-8 item-8"
+    "item-6 item-9 item-9 item-8 item-8"
+    "item-6 item-10 item-10 item-11 item-11"
+    "item-12 item-10 item-10 item-11 item-11"
+    "item-12 item-13 item-14 item-15 item-15"
+    "item-16 item-17 item-18 item-19 item-20";
+
+  gap: 10px;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.item-1 {
+  grid-area: item-1;
+  background-color: rgb(114, 19, 19);
+}
+
+.item-2 {
+  grid-area: item-2;
+  background-color: rgba(255, 21, 21, 0.822);
+}
+
+.item-3 {
+  grid-area: item-3;
+  background-color: rgba(231, 38, 38, 0.964);
+}
+
+.item-4 {
+  grid-area: item-4;
+  background-color: rgb(202, 62, 62);
+}
+
+.item-5 {
+  grid-area: item-5;
+  background-color: rgba(255, 96, 96, 0.895);
+}
+
+.item-6 {
+  grid-area: item-6;
+  background-color: rgba(235, 61, 79, 0.803);
+}
+
+.item-7 {
+  grid-area: item-7;
+  background-color: rgba(189, 22, 22, 0.849);
+}
+
+.item-8 {
+  grid-area: item-8;
+  background-color: rgb(186, 13, 13);
+}
+.item-9 {
+  grid-area: item-9;
+  background-color: rgba(198, 31, 31, 0.814);
+}
+
+.item-10 {
+  grid-area: item-10;
+  background-color: rgba(172, 26, 26, 0.953);
+}
+
+.item-11 {
+  grid-area: item-11;
+  background-color: rgba(252, 115, 4, 0.964);
+}
+
+.item-12 {
+  grid-area: item-12;
+  background-color: rgb(235, 51, 4);
+}
+
+.item-13 {
+  grid-area: item-13;
+  background-color: rgba(255, 8, 0, 0.907);
+}
+
+.item-14 {
+  grid-area: item-14;
+  background-color: rgb(255, 0, 0);
+}
+
+.item-15 {
+  grid-area: item-15;
+  background-color: rgba(255, 0, 0, 0.584);
+}
+
+.item-16 {
+  grid-area: item-16;
+  background-color: rgba(255, 0, 0, 0.816);
+}
+
+.item-17 {
+  grid-area: item-17;
+  background-color: rgba(255, 0, 0, 0.919);
+}
+.item-18 {
+  grid-area: item-18;
+  background-color: rgba(146, 29, 29, 0.966);
+}
+.item-19 {
+  grid-area: item-19;
+  background-color: rgba(118, 24, 24, 0.919);
+}
+.item-20 {
+  grid-area: item-20;
+  background-color: rgba(84, 21, 21, 0.919);
+}
